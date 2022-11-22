@@ -19,8 +19,8 @@
 <body>
 	<div id="root">
 		<button @click="getEmail">genera 10 email </button>
-		<ul v-for="(obj) in email">
-			<li>{{obj}}</li>
+		<ul>
+			<li v-for="(obj) in email">{{obj}}</li>
 		</ul>
 		
 		

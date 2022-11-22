@@ -16,6 +16,7 @@ new Vue({
 				.then(axiosResponse=>{
 					this.email.push(axiosResponse.data.response);
 				})
+			
 			}
 		}
 	},	
