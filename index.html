@@ -15,11 +15,12 @@
     
     <title>Vue Email List</title>
 
+
 </head>
 <body>
 	<div id="root">
 		<button @click="getEmail">genera 10 email </button>
-		<ul>
+		<ul v-if="email.length===10">
 			<li v-for="(obj) in email">{{obj}}</li>
 		</ul>
 		
